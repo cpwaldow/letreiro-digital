@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cpwaldow/letreiro-digital/issues"
   },
-  "homepage": "https://github.com/cpwaldow/letreiro-digital#readme"
+  "homepage": "https://github.com/cpwaldow/letreiro-digital#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3"
+  }
 }
