@@ -55,5 +55,21 @@ button[disabled=disabled], button:disabled {
   overflow: auto;
   background-color: rgb(0,0,0);
   color: white;
-  /* transform: rotate(90deg); */
+  white-space: nowrap;
+}
+
+#text {
+  transform: rotate(90deg);
+  position: relative;
+  font-size: 10em;
+  animation: move 5s infinite linear;
+}
+
+@keyframes move {
+  from {
+    top: 100vh;
+  }
+  to {
+    top: -200vh;
+  }
 }

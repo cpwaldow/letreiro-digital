@@ -14,6 +14,7 @@ textArea.addEventListener('input', () => {
 btn.addEventListener('click', () => {
   h2.innerText = textArea.value.toUpperCase();
   textArea.value = '';
+  btn.disabled = true;
   container.style.display = 'block';
 });
 
