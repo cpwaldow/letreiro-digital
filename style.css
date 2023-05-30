@@ -43,6 +43,12 @@ button[disabled=disabled], button:disabled {
   background: rgb(168, 168, 168);
 }
 
+p {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .text-container {
   display: none;
   position: fixed;
